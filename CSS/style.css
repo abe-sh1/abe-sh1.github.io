@@ -6,7 +6,7 @@
 /* ページ全体の背景 */
 html {
     min-height: 100%;
-    background-color: #f3f6fb;
+    background-color: #fdf6f6;
 }
 
 /* コンテンツを中央に配置する */
@@ -16,7 +16,7 @@ body {
     padding: 56px 24px 80px;
     font-family: "Segoe UI", "Hiragino Kaku Gothic ProN",
         "Yu Gothic", Meiryo, sans-serif;
-    color: #334155;
+    color: #3f3336;
     line-height: 1.8;
     overflow-wrap: anywhere;
 }
@@ -26,8 +26,8 @@ h1 {
     margin: 0 0 44px;
     padding: 40px 36px;
     border-radius: 20px;
-    background: linear-gradient(120deg, #17365b, #2563a6);
-    box-shadow: 0 12px 30px rgba(23, 54, 91, 0.16);
+    background: linear-gradient(120deg, #5b171f, #b91c1c);
+    box-shadow: 0 12px 30px rgba(91, 23, 31, 0.16);
     color: #ffffff;
     font-size: clamp(1.5rem, 3.5vw, 2.1rem);
     line-height: 1.5;
@@ -39,7 +39,7 @@ h1::before {
     content: "PORTFOLIO";
     display: block;
     margin-bottom: 12px;
-    color: #bfdbfe;
+    color: #fecaca;
     font-size: 0.75rem;
     font-weight: 600;
     letter-spacing: 0.2em;
@@ -49,8 +49,8 @@ h1::before {
 h2 {
     margin: 36px 0 16px;
     padding-left: 14px;
-    border-left: 4px solid #2563a6;
-    color: #17365b;
+    border-left: 4px solid #b91c1c;
+    color: #5b171f;
     font-size: 1.25rem;
     line-height: 1.5;
 }
@@ -59,18 +59,18 @@ h2 {
 p {
     margin: 0;
     padding: 24px 28px;
-    border: 1px solid #e2e8f0;
+    border: 1px solid #f1e2e4;
     border-radius: 14px;
     background-color: #ffffff;
-    box-shadow: 0 4px 16px rgba(15, 23, 42, 0.04);
+    box-shadow: 0 4px 16px rgba(42, 15, 19, 0.04);
     line-height: 2;
 }
 
 /* 作品紹介用のカード */
 .portfolio-card {
     padding: 28px;
-    border-top: 3px solid #2563a6;
-    color: #17365b;
+    border-top: 3px solid #b91c1c;
+    color: #5b171f;
     font-size: 1.15rem;
     font-weight: 700;
 }
@@ -80,7 +80,7 @@ p {
     content: "PROJECT";
     display: block;
     margin-bottom: 8px;
-    color: #64748b;
+    color: #8b6469;
     font-size: 0.7rem;
     font-weight: 600;
     letter-spacing: 0.15em;
@@ -88,18 +88,18 @@ p {
 
 /* リンクを追加した場合の見た目 */
 a {
-    color: #1d5c9f;
+    color: #b91c1c;
     text-decoration-thickness: 1px;
     text-underline-offset: 4px;
 }
 
 a:hover {
-    color: #123b68;
+    color: #7f1d1d;
     text-decoration-thickness: 2px;
 }
 
 a:focus-visible {
-    outline: 3px solid #2563a6;
+    outline: 3px solid #b91c1c;
     outline-offset: 5px;
 }
 
@@ -136,10 +136,10 @@ a:focus-visible {
     display: block;
     margin: 0 0 18px auto;
     padding: 10px 18px;
-    border: 1px solid #cbd5e1;
+    border: 1px solid #e1cbd0;
     border-radius: 999px;
     background: #ffffff;
-    color: #17365b;
+    color: #5b171f;
     font: inherit;
     font-size: 0.9rem;
     font-weight: 700;
@@ -148,12 +148,12 @@ a:focus-visible {
 }
 
 .theme-toggle:hover {
-    background-color: #e8f1ff;
+    background-color: #ffe8eb;
     transform: translateY(-2px);
 }
 
 .theme-toggle:focus-visible {
-    outline: 3px solid #2563a6;
+    outline: 3px solid #b91c1c;
     outline-offset: 3px;
 }
 
@@ -161,8 +161,8 @@ a:focus-visible {
 h1 {
     background:
         radial-gradient(circle at var(--mouse-x, 50%) var(--mouse-y, 50%),
-            rgba(147, 197, 253, 0.5), transparent 42%),
-        linear-gradient(120deg, #17365b, #2563a6);
+            rgba(253, 164, 175, 0.5), transparent 42%),
+        linear-gradient(120deg, #5b171f, #b91c1c);
 }
 
 /* 画面内に入ると、ふわっと表示する */
@@ -185,50 +185,50 @@ h1 {
 
 .portfolio-card.is-visible:hover {
     transform: translateY(-5px);
-    box-shadow: 0 12px 32px rgba(23, 54, 91, 0.16);
+    box-shadow: 0 12px 32px rgba(91, 23, 31, 0.16);
 }
 
 /* ダークモード */
 html.dark {
-    background-color: #0b1220;
+    background-color: #1a0b0e;
 }
 
 .dark body {
-    color: #cbd5e1;
+    color: #e2cbcf;
 }
 
 .dark h2 {
-    color: #bfdbfe;
-    border-left-color: #60a5fa;
+    color: #fecaca;
+    border-left-color: #f87171;
 }
 
 .dark p {
-    background-color: #182337;
-    color: #e2e8f0;
-    border-color: #334155;
-    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.2);
+    background-color: #2c1519;
+    color: #f0e2e4;
+    border-color: #553338;
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.25);
 }
 
 .dark .portfolio-card {
-    border-top-color: #60a5fa;
+    border-top-color: #f87171;
 }
 
 .dark .portfolio-card::before {
-    color: #94a3b8;
+    color: #b89499;
 }
 
 .dark .theme-toggle {
-    color: #e2e8f0;
-    background-color: #1e293b;
-    border-color: #475569;
+    color: #f0e2e4;
+    background-color: #3b1e23;
+    border-color: #69474c;
 }
 
 .dark .theme-toggle:hover {
-    background-color: #334155;
+    background-color: #553338;
 }
 
 .dark a {
-    color: #93c5fd;
+    color: #fca5a5;
 }
 
 /* アニメーションを控えたい設定の人には、動かさず表示する */
@@ -267,10 +267,10 @@ html.dark {
     padding: 0;
     overflow: hidden;
     background: #ffffff;
-    border: 1px solid #e2e8f0;
+    border: 1px solid #f1e2e4;
     border-radius: 16px;
-    box-shadow: 0 4px 16px rgba(15, 23, 42, 0.06);
-    color: #334155;
+    box-shadow: 0 4px 16px rgba(42, 15, 19, 0.06);
+    color: #3f3336;
     font-size: 1rem;
     font-weight: normal;
     transition:
@@ -287,7 +287,7 @@ html.dark {
 /* カードのホバー演出 */
 .portfolio-grid .portfolio-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 12px 32px rgba(23, 54, 91, 0.15);
+    box-shadow: 0 12px 32px rgba(91, 23, 31, 0.15);
 }
 
 /* カード上部の画像領域 */
@@ -296,7 +296,7 @@ html.dark {
     align-items: center;
     justify-content: center;
     height: 150px;
-    background: linear-gradient(135deg, #17365b, #3b82f6);
+    background: linear-gradient(135deg, #5b171f, #dc2626);
     color: white;
     font-size: 0.9rem;
     font-weight: 700;
@@ -305,7 +305,7 @@ html.dark {
 
 /* 制作予定カード */
 .portfolio-image-next {
-    background: linear-gradient(135deg, #64748b, #94a3b8);
+    background: linear-gradient(135deg, #7c5c61, #a8888d);
 }
 
 /* カード本文 */
@@ -315,7 +315,7 @@ html.dark {
 
 .portfolio-content h3 {
     margin: 0 0 12px;
-    color: #17365b;
+    color: #5b171f;
     font-size: 1.2rem;
 }
 
@@ -327,7 +327,7 @@ html.dark {
     border-radius: 0;
     background: transparent;
     box-shadow: none;
-    color: #64748b;
+    color: #7a5c60;
     font-size: 0.9rem;
     font-weight: normal;
     line-height: 1.8;
@@ -344,8 +344,8 @@ html.dark {
 .portfolio-tags span {
     padding: 4px 12px;
     border-radius: 6px;
-    background: #eff6ff;
-    color: #1d5c9f;
+    background: #fef2f2;
+    color: #b91c1c;
     font-size: 0.75rem;
     font-weight: 600;
 }
@@ -362,24 +362,24 @@ html.dark {
    ========================================== */
 
 .dark .portfolio-grid .portfolio-card {
-    background: #182337;
-    border-color: #334155;
-    color: #e2e8f0;
+    background: #2c1519;
+    border-color: #553338;
+    color: #f0e2e4;
 }
 
 .dark .portfolio-content h3 {
-    color: #bfdbfe;
+    color: #fecaca;
 }
 
 .dark .portfolio-grid .portfolio-description {
     background: transparent;
-    color: #cbd5e1;
+    color: #e2cbcf;
     box-shadow: none;
 }
 
 .dark .portfolio-tags span {
-    background: #1e3a5f;
-    color: #bfdbfe;
+    background: #5f1e26;
+    color: #fecaca;
 }
 
 /* ==========================================
