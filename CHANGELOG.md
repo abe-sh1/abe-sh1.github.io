@@ -6,6 +6,9 @@
 
 ## [Unreleased]
 
+### Changed
+- CSSの変更（青→赤）
+
 ## [0.2.0]- 2026-11-17
 
 ### Changed
