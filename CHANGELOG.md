@@ -15,6 +15,10 @@
 ### Changed
 - CSSの変更（青→赤）
 - トップページ(index.html)にAbout Meページへのリンクを追加
+- About Me ページに追記
+
+### Fix
+- README.mdの誤字修正
 
 ## [0.2.0]- 2026-11-17
 
