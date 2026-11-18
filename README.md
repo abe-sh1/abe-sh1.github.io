@@ -1,6 +1,6 @@
 # ポートフォリオ公開サイト
 
-HTML,CSS,JavaScriptを用意手制作するポートフォリオサイトです。
+HTML,CSS,JavaScriptを用いて制作するポートフォリオサイトです。
 
 **URL:**[
 https://abe-sh1.github.io/](http://abe-sh1.github.io/)
